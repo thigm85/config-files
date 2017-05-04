@@ -23,6 +23,9 @@ PS1="$PS1\[\e[34;1m\]\h\[\e[0m\]"
 PS1="$PS1 \w]"
 PS1="$PS1\\$ "
 
+export CLICOLOR=1;
+export LSCOLORS=exfxcxdxbxegedabagacad;
+
 # enable color support of ls and also add handy aliases
 if [ -x /usr/bin/dircolors ]; then
     test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
