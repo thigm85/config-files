@@ -29,3 +29,5 @@ fi
 
 # aliases
 alias sublime="open -a Sublime\ Text.app"
+# added by Anaconda2 4.3.1 installer
+export PATH="/Users/tgmartins/anaconda/bin:$PATH"
